@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+
+# Local Environment & Secrets
+.env
+.env.*
+
+# Application Data & Exports
+data/uploads/*
+!data/uploads/.gitkeep
+!data/uploads/*.pdf
+data/exports/*
+!data/exports/.gitkeep
+data/document_registry.json
+chroma_db/
